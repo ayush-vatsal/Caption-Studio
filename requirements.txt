@@ -1,3 +1,7 @@
+evaluate
+jiwer
+huggingface_hub @ git+https://github.com/huggingface/huggingface_hub.git
+gradio
 bitsandbytes
 transformers @ git+https://github.com/huggingface/transformers.git
 peft @ git+https://github.com/huggingface/peft.git

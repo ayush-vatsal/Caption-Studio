@@ -36,8 +36,8 @@ Caption-Studio: Unleash the power of cutting-edge language models and image reco
 
 ## Usage
 To use the Caption Studio, if you have a local GPU that can handle inferencing from Falcon 7B follow these steps:
-run the AI_Image_captions_for_Social_Media.ipynb notebook locally and scroll down to the very end for inference.
-or, go to the AI_Image_captions_for_Social_Media.ipynb notebook, and click on open in colab. Go to runtime, click run all and scroll down to the very end for the UI, here you can upload any image and get captivating captions for your images. 
+run the ```AI_Image_captions_for_Social_Media.ipynb``` notebook locally and scroll down to the very end for inference.
+or, go to the said notebook, and click on open in colab. Go to runtime, click run all and scroll down to the very end for the UI, here you can upload any image and get captivating captions for your images. 
 
 ## Models
 A resharded( version with smaller chunks on safetensors for low RAM environments) Falcon 7B instruct model was used as the base llm [Falcon-7b-instruct-sharded](https://huggingface.co/vilsonrodrigues/falcon-7b-instruct-sharded)

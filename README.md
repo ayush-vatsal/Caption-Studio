@@ -45,4 +45,4 @@ These image descriptions were then annotated for captions using OpenAI's chat mo
 The datset is uploaded here [captions datset](https://huggingface.co/datasets/ayush-vatsal/description_to_caption)
 
 ## License
-The datset is uploaded here[captions datset](link_here)
+This project is licensed under Apache License 2.0.

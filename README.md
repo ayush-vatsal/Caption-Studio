@@ -18,6 +18,7 @@ Caption-Studio: Unleash the power of cutting-edge language models and image reco
 - **Decoder-only Language Model**: The captions are generated using a fine-tuned Decoder-only Language Model Falcon 7B Instruct(LLM), ensuring high-quality and creative output.
 - **Social Media-Worthy Captions**: The Falcon model was finetuned using a subset of the flickr dataset annotated using a larger LLM, the generated captions are specifically tailored to be suitable for sharing on social media platforms, making your posts more engaging.
 - **Code and Resources**: This repository provides the necessary code and pre-trained models to get started quickly and also a demo notbook for inference with a gradio UI. The dataset used to finetune the model is also linked in the datasets section.
+- The LLM was instruction tuned similar to the [Stanford's Alpaca model](https://crfm.stanford.edu/2023/03/13/alpaca.html). For the task of description to caption generation, it performs qualitatively similar to OpenAI's text-davinci-003 while being surprisingly small in size and training resources. 
 
 ## Installation
 
